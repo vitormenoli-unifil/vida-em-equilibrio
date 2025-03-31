@@ -1,0 +1,37 @@
+.profile {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 250px;
+}
+
+.profileImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileName {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.profileCurso {
+  font-size: 1rem;
+  color: #555;
+}
+
+.profileGit a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.profileGit a:hover {
+  text-decoration: underline;
+}
