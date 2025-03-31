@@ -6,7 +6,7 @@ Vida em Equilíbrio é um site desenvolvido como parte do projeto de extensão d
 O site conta com informações sobre o tema do projeto, apresentação dos integrantes da equipe e uma seção dedicada à comunidade, destacando os benefícios do projeto e seu público-alvo.
 
 ## Link do Projeto
-🔗 O site pode ser acessado em breve pelo seguinte link: https://github.com/vitormenoli-unifil/vida-em-equilibrio
+🔗 O site pode ser acessado em breve pelo seguinte link: https://vida-em-equilibrio.vercel.app/
 
 ## Integrantes
 - **Vitor Hideo Menoli Nakamura** ([GitHub](https://github.com/vitormenoli))
