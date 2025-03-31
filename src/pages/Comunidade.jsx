@@ -5,7 +5,7 @@ function Comunidade() {
     <div className={styles.container}>
       <div className={styles.vida}>
         <h1 className={styles.title}>Comunidade</h1>
-        <img src="../../public/logo.png" alt="Vida em Equilíbrio" />
+        <img src="/logo.png" alt="Vida em Equilíbrio" />
       </div>
 
       <section className={styles.section}>

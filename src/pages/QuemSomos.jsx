@@ -5,7 +5,7 @@ function QuemSomos() {
   return (
     <div className={styles.container}>
       <div className={styles.unifil}>
-        <img src="../../public/unifil.png" alt="Unifil Logo" />
+        <img src="/unifil.png" alt="Unifil Logo" />
         <h1 className={styles.title}>Quem Somos</h1>
       </div>
       <p className={styles.description}>Conheça nossa equipe:</p>
