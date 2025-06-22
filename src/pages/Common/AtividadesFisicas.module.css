@@ -1,0 +1,89 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #76c7c0, #a3d5d3);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.link {
+  color: #32CD32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.input, .select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 140px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #32CD32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #28a428;
+}
+
+.result {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 12px;
+}
+
+.suggestion {
+  margin-top: 1rem;
+  background-color: #e8f5e9;
+  padding: 12px;
+  border-radius: 4px;
+  color: #333;
+  line-height: 1.5;
+  border-left: 4px solid #32CD32;
+}
+
+.tip {
+  background-color: #e8f5e9;
+  padding: 12px;
+  border-radius: 4px;
+  color: #333;
+  font-style: italic;
+}
