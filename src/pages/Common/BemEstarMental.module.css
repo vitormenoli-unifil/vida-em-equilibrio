@@ -1,0 +1,108 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #32CD32;
+  margin-bottom: 8px;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.intro {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.startButton,
+.button,
+.restartButton {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 12px 24px;
+  background-color: #32CD32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.startButton:hover,
+.button:hover,
+.restartButton:hover {
+  background-color: #28a428;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.resultBox {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0fff0;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border-left: 8px solid;
+}
+
+.resultTitle {
+  margin-bottom: 12px;
+}
+
+.resultParagraph {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.topics {
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.extraInfo {
+  background-color: #e8f5e9;
+  padding: 16px;
+  border-radius: 8px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.extraInfo h3 {
+  color: #32CD32;
+  margin-bottom: 8px;
+}

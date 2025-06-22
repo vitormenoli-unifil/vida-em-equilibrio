@@ -6,6 +6,7 @@ import TemaProjeto from './pages/TemaProjeto';
 import Comunidade from './pages/Comunidade';
 import AlimentacaoSaudavel from './pages/Common/AlimentacaoSaudavel';
 import AtividadesFisicas from './pages/Common/AtividadesFisicas';
+import BemEstarMental from './pages/Common/BemEstarMental';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/comunidade" element={<Comunidade />} />
         <Route path="/alimentacao-saudavel" element={<AlimentacaoSaudavel/>} />
         <Route path="/atividades-fisicas" element={<AtividadesFisicas/>} />
+        <Route path="/bem-estar-mental" element={<BemEstarMental/>} />
       </Routes>
     </Router>
   );
