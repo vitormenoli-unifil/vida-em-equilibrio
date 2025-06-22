@@ -19,7 +19,7 @@ function Home() {
       </section>
 
       <section className={styles.dicas}>
-        <h2>Dicas em Destaque</h2>
+        <h2>Nossos Tópicos</h2>
 
         <Link to="/alimentacao-saudavel">
           <div className={styles.dicaItem}>

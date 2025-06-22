@@ -163,8 +163,10 @@ Evite excesso de açúcar, sódio e alimentos ultraprocessados.`
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Alimentação Saudável</h1>
+<div className={styles.hero}>
+        <h1 className={styles.title}>Alimentação Saudável</h1>
       <p className={styles.subtitle}>{textoSaudavel}</p>
+</div>
 
       <section className={styles.section}>
         <h2>O que é IMC?</h2>
