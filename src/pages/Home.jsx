@@ -1,4 +1,5 @@
 import styles from './Home.module.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -19,24 +20,33 @@ function Home() {
 
       <section className={styles.dicas}>
         <h2>Dicas em Destaque</h2>
-        <div className={styles.dicaItem}>
-          <h3>Alimentação Saudável</h3>
-          <p>
-            Descubra receitas, dicas de nutrição e orientações para manter uma dieta balanceada e saborosa.
-          </p>
-        </div>
-        <div className={styles.dicaItem}>
-          <h3>Atividades Físicas</h3>
-          <p>
-            Encontre exercícios simples e eficazes para incorporar na sua rotina, melhorando sua saúde física e disposição.
-          </p>
-        </div>
-        <div className={styles.dicaItem}>
-          <h3>Bem-Estar Mental</h3>
-          <p>
-            Técnicas de meditação, dicas para reduzir o estresse e promover o equilíbrio emocional no dia a dia.
-          </p>
-        </div>
+
+        <Link to="/alimentacao-saudavel">
+          <div className={styles.dicaItem}>
+            <h3>Alimentação Saudável</h3>
+            <p>
+              Descubra receitas, dicas de nutrição e orientações para manter uma dieta balanceada e saborosa.
+            </p>
+          </div>
+        </Link>
+
+        <Link to="/atividades-fisicas">
+          <div className={styles.dicaItem}>
+            <h3>Atividades Físicas</h3>
+            <p>
+              Encontre exercícios simples e eficazes para incorporar na sua rotina, melhorando sua saúde física e disposição.
+            </p>
+          </div>
+        </Link>
+
+        <Link to="/bem-estar-mental">
+          <div className={styles.dicaItem}>
+            <h3>Bem-Estar Mental</h3>
+            <p>
+              Técnicas de meditação, dicas para reduzir o estresse e promover o equilíbrio emocional no dia a dia.
+            </p>
+          </div>
+        </Link>
       </section>
     </div>
   );

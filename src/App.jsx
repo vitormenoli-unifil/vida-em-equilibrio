@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import QuemSomos from './pages/QuemSomos';
 import TemaProjeto from './pages/TemaProjeto';
 import Comunidade from './pages/Comunidade';
+import AlimentacaoSaudavel from './pages/Common/AlimentacaoSaudavel';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/quem-somos" element={<QuemSomos />} />
         <Route path="/tema-do-projeto" element={<TemaProjeto />} />
         <Route path="/comunidade" element={<Comunidade />} />
+        <Route path="/alimentacao-saudavel" element={<AlimentacaoSaudavel/>} />
       </Routes>
     </Router>
   );
