@@ -27,7 +27,7 @@
 }
 
 .section {
-  margin-bottom: 20px;
+  /* ...existing code... */
   padding: 15px;
   background-color: #fff;
   border-radius: 5px;
@@ -55,4 +55,99 @@ p {
 
 .list li {
   margin-bottom: 8px;
+}
+
+.profileList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.profileItem {
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  padding: 1rem;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.profileItem:hover {
+  box-shadow: 0 4px 12px rgba(76,175,80,0.15);
+  background: #eafbe7;
+}
+
+.profileImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1.2rem;
+  flex-shrink: 0;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profileName {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.profileSobre {
+  font-size: 0.98rem;
+  color: #555;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .profileItem {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0.8rem;
+  }
+  .profileImg {
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+  }
+}
+
+.popupOverlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popupContent {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 8px 32px rgba(76,175,80,0.18);
+  max-width: 350px;
+  width: 90vw;
+  text-align: center;
+  position: relative;
+}
+
+.popupClose {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #4CAF50;
+  cursor: pointer;
 }
