@@ -11,7 +11,8 @@ function Comunidade() {
   const [popupIdx, setPopupIdx] = useState(null);
 
   useEffect(() => {
-    fetch('/api/auth/users')
+    const API_BASE = 'https://vida-em-equilibrio-backend.onrender.com';
+    fetch(`${API_BASE}/api/auth/users`)
       .then(res => res.json())
       .then(data => setUsuarios(data))
       .catch(() => setUsuarios([]));
