@@ -14,7 +14,8 @@ function Login() {
     e.preventDefault();
     setError('');
     try {
-      const url = isLogin ? '/api/auth/login' : '/api/auth/register';
+  const API_BASE = 'https://vida-em-equilibrio-backend.onrender.com';
+  const url = isLogin ? `${API_BASE}/api/auth/login` : `${API_BASE}/api/auth/register`;
       const res = await fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
